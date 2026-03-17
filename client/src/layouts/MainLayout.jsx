@@ -31,12 +31,8 @@ const MainLayout = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/">Home</Link>
                 </li>
-                {/* Note: I removed all the complex dropdowns here to keep it cleaner for the React port, but you can add them back later if needed */}
                 <li className="nav-item">
-                  <Link className="nav-link" to="/student/dashboard">Student Dashboard</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/instructor/dashboard">Instructor Dashboard</Link>
+                  <Link className="nav-link" to="/courses">Courses</Link>
                 </li>
               </ul>
               {/* Nav Main menu END */}
